@@ -75,8 +75,13 @@ class Consumo(TypedDict):
     Cantidad_Consumida: float
     Posicion: int
 
+class ItemBOM(TypedDict):
+    SKU_Producto: str
+    Codigo_MP: str
+    Cantidad_Teorica_por_1000_unid: float
+
 # ==================================================
-# 1. DIMENSIÓN MATERIAS PRIMAS Y PROVEEDORES
+# 1.0 DIMENSIÓN MATERIAS PRIMAS Y PROVEEDORES
 # ==================================================
 
 print("    Generando Maestro de Materias Primas y Proveedores...")
@@ -135,7 +140,7 @@ df_mps.to_csv('data/raw/dim_materias_primas.csv', index=False, encoding='utf-8-s
 
 
 # ==================================================
-# 2. DIMENSIÓN PRODUCTOS
+# 2.0 DIMENSIÓN PRODUCTOS
 # ==================================================
 
 print("    Generando Maestro de Productos y asignando Recetas Fijas...")
@@ -189,10 +194,36 @@ for i in range(1, n_productos + 1):
 df_productos = pd.DataFrame(productos_data)
 df_productos.to_csv('data/raw/dim_productos.csv', index=False, encoding='utf-8-sig')
 
+# ==================================================
+# 2.1 DIMENSIÓN PRODUCTOS - BOMs
+# ==================================================
 
+print("    Exportando Tabla puente de BOMs")
+# Mapeo en un diccionario para no recorrer la lista con 100 materias primas cada vez.
+mapa_categorias: Dict[str, str] = {mp['Codigo_MP']: mp['Categoria'] for mp in mps_data}
+bom_data_flat: List[ItemBOM] = []
+
+for sku, lista_mps in boms_maestras.items():
+    for mp_codigo in lista_mps:
+        categoria: str = mapa_categorias[mp_codigo]
+
+        if categoria == 'Activo':
+            cant = round(random.uniform(0.5, 5.0), 3)
+        else:
+            cant = round(random.uniform(2.0, 15.0), 3)
+
+        item: ItemBOM = {
+            'SKU_Producto': sku,
+            'Codigo_MP': mp_codigo,
+            'Cantidad_Teorica_por_1000_unid': cant
+        }
+        bom_data_flat.append(item)
+        
+df_bom = pd.DataFrame(bom_data_flat)
+df_bom.to_csv('data/raw/bridge_BOM.csv', index=False, encoding='utf-8-sig')
 
 # ==================================================
-# 3. FACT CALIDAD (Recepción y Análisis)
+# 3.0 FACT CALIDAD (Recepción y Análisis)
 # ==================================================
 
 print("    Simulando Análisis de Calidad...")
@@ -229,7 +260,7 @@ df_calidad = pd.DataFrame(analisis_data)
 df_calidad.to_csv('data/raw/fact_calidad.csv', index=False, encoding='utf-8-sig')
 
 # ==================================================
-# 4. FACT ÓRDENES DE PRODUCCIÓN
+# 4.0 FACT ÓRDENES DE PRODUCCIÓN
 # ==================================================
 print("    Planificando Órdenes de Producción...")
 n_ordenes: int = 3000

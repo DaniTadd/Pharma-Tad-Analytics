@@ -1,31 +1,31 @@
 ﻿ID_Proveedor,Nombre_Fantasia,Pais,Tipo
-PROV-001,Lucero Group,Malawi,Fabricante MP
-PROV-002,Molina-Rodriguez,Benin,Fabricante MP
-PROV-003,Farias Ltd,Croacia,Fabricante MP
-PROV-004,Torres-Barrios,Trinidad y Tabago,Fabricante MP
-PROV-005,"Toledo, Moreno and Sanchez",República Árabe Siria,Fabricante MP
-PROV-006,Rodriguez LLC,Angola,Fabricante MP
-PROV-007,"Farias, Aguirre and Guzman",Mauricio,Fabricante MP
-PROV-008,"Morales, Blanco and Garcia",Antigua y Barbuda,Fabricante MP
-PROV-009,Luna Inc,Sudán,Fabricante MP
-PROV-010,"Gimenez, Lopez and Fernandez",Indonesia,Fabricante MP
-PROV-011,Lopez-Avila,Indonesia,Fabricante MP
-PROV-012,"Dominguez, Aguirre and Fernandez",Ecuador,Fabricante MP
-PROV-013,Sanchez Inc,Sri Lanka,Fabricante MP
-PROV-014,"Peralta, Martinez and Navarro",Uganda,Fabricante MP
-PROV-015,"Torres, Juarez and Lopez",Japón,Fabricante MP
-PROV-016,Sanchez-Sosa,Turquía,Fabricante MP
-PROV-017,"Suarez, Moreno and Fernandez",República Democrática Popular Lao,Fabricante MP
-PROV-018,"Coronel, Gonzalez and Aguero",Sierra Leona,Fabricante MP
-PROV-019,Diaz Ltd,Seychelles,Fabricante MP
-PROV-020,"Ruiz, Cabrera and Gomez",República de Corea,Fabricante MP
-PROV-021,Vargas LLC,Estados Unidos de América,Fabricante MP
-PROV-022,Alvarez LLC,Maldivas,Fabricante MP
-PROV-023,"Romero, Villalba and Rojas",Islas Salomón,Fabricante MP
-PROV-024,Sanchez-Mendez,Suriname,Fabricante MP
-PROV-025,Sanchez PLC,República Unida de Tanzanía,Fabricante MP
-PROV-026,Dominguez-Ruiz,Iraq,Tercerista
-PROV-027,"Sanchez, Sanchez and Ojeda",Luxemburgo,Tercerista
-PROV-028,Quiroga-Suarez,Bahamas,Tercerista
-PROV-029,"Cabrera, Romero and Bravo",Uganda,Tercerista
-PROV-030,Diaz Ltd,Japón,Tercerista
+PROV-001,Garcia and Sons,Bélgica,Fabricante MP
+PROV-002,Ledesma Inc,Nicaragua,Fabricante MP
+PROV-003,Fernandez LLC,Australia,Fabricante MP
+PROV-004,Morales Group,Eritrea,Fabricante MP
+PROV-005,Castro-Rodriguez,República de Moldova,Fabricante MP
+PROV-006,"Garcia, Torres and Romero",Turkmenistán,Fabricante MP
+PROV-007,Morales-Fernandez,Maldivas,Fabricante MP
+PROV-008,Valdez-Romero,Benin,Fabricante MP
+PROV-009,Martinez-Torres,Hungría,Fabricante MP
+PROV-010,"Blanco, Perez and Herrera",Islandia,Fabricante MP
+PROV-011,"Ledesma, Lopez and Gonzalez",Chile,Fabricante MP
+PROV-012,Fernandez Ltd,República Federal Democrática de Nepal,Fabricante MP
+PROV-013,Diaz-Nuñez,Islas Marshall,Fabricante MP
+PROV-014,Pereyra LLC,Turquía,Fabricante MP
+PROV-015,Romero Ltd,Brasil,Fabricante MP
+PROV-016,Navarro-Diaz,Botswana,Fabricante MP
+PROV-017,Gomez-Garcia,Camboya,Fabricante MP
+PROV-018,Fernandez-Aguirre,Dinamarca,Fabricante MP
+PROV-019,Perez-Flores,Armenia,Fabricante MP
+PROV-020,Ojeda-Mendez,Barbados,Fabricante MP
+PROV-021,"Bravo, Rivero and Rodriguez",Suiza,Fabricante MP
+PROV-022,Rodriguez and Sons,Gambia,Fabricante MP
+PROV-023,"Cordoba, Diaz and Quiroga",Haití,Fabricante MP
+PROV-024,"Suarez, Vega and Luna",Vietman,Fabricante MP
+PROV-025,"Ortiz, Leiva and Ponce",Guinea,Fabricante MP
+PROV-026,Cardozo PLC,Bosnia y Herzegovina,Tercerista
+PROV-027,Gomez Group,Sudán del Sur,Tercerista
+PROV-028,"Martinez, Ojeda and Mendoza",Ghana,Tercerista
+PROV-029,Diaz and Sons,San Marino,Tercerista
+PROV-030,"Silva, Sanchez and Dominguez",Croacia,Tercerista
