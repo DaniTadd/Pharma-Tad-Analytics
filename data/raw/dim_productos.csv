@@ -1,0 +1,51 @@
+﻿SKU,Nombre,Tipo,Segmentacion,Origen_Fabricacion,Estacionalidad
+PROD-0001,Losartan Dúo,Comprimidos,C,Propio,Verano
+PROD-0002,Ibuprofeno Compuesto,Inyectable,C,Propio,Verano
+PROD-0003,Amoxicilina 500,Inyectable,B,Propio,
+PROD-0004,Metformina Lib. Prolongada,Crema,A,Propio,Verano
+PROD-0005,Enalapril Plus,Jarabe,B,Propio,Verano
+PROD-0006,Losartan Forte,Jarabe,B,Propio,Verano
+PROD-0007,Ibuprofeno Ped,Inyectable,B,Tercerista,Verano
+PROD-0008,Losartan Ped,Jarabe,C,Propio,Verano
+PROD-0009,Valsartan Cb,Inyectable,C,Tercerista,Invierno
+PROD-0010,Aspirina Cb,Inyectable,A,Propio,
+PROD-0011,Enalapril Forte,Crema,B,Propio,Verano
+PROD-0012,Valsartan Compuesto,Jarabe,B,Propio,Verano
+PROD-0013,Metformina Plus,Inyectable,A,Tercerista,
+PROD-0014,Enalapril Lib. Prolongada,Jarabe,B,Propio,Verano
+PROD-0015,Amoxicilina Compuesto,Jarabe,A,Propio,Verano
+PROD-0016,Aspirina 500,Crema,B,Tercerista,Verano
+PROD-0017,Metformina 500,Crema,A,Propio,Verano
+PROD-0018,Paracetamol Forte,Inyectable,A,Propio,
+PROD-0019,Dipirona Lib. Prolongada,Inyectable,C,Propio,Verano
+PROD-0020,Aspirina Ped,Jarabe,A,Propio,
+PROD-0021,Omeprazol Ped,Comprimidos,B,Propio,Verano
+PROD-0022,Dipirona 500,Inyectable,A,Propio,
+PROD-0023,Losartan Cb,Comprimidos,C,Tercerista,Verano
+PROD-0024,Aspirina Max,Crema,C,Propio,
+PROD-0025,Metformina Compuesto,Jarabe,A,Propio,Invierno
+PROD-0026,Clonazepam Cb,Inyectable,B,Propio,Invierno
+PROD-0027,Aspirina Forte,Jarabe,B,Propio,
+PROD-0028,Enalapril Max,Jarabe,B,Tercerista,Verano
+PROD-0029,Clonazepam Plus,Jarabe,A,Propio,
+PROD-0030,Atorvastatina 500,Comprimidos,B,Propio,Invierno
+PROD-0031,Atorvastatina Forte,Jarabe,C,Tercerista,Verano
+PROD-0032,Aspirina Dúo,Crema,B,Propio,
+PROD-0033,Dipirona Dúo,Inyectable,B,Propio,Invierno
+PROD-0034,Paracetamol Lib. Prolongada,Comprimidos,C,Propio,Invierno
+PROD-0035,Omeprazol Forte,Jarabe,B,Propio,Verano
+PROD-0036,Enalapril Ped,Inyectable,C,Propio,Invierno
+PROD-0037,Ibuprofeno 500,Comprimidos,C,Propio,
+PROD-0038,Clonazepam Dúo,Jarabe,A,Propio,Invierno
+PROD-0039,Dipirona Forte,Jarabe,B,Propio,Invierno
+PROD-0040,Valsartan Max,Crema,B,Propio,Verano
+PROD-0041,Ibuprofeno Lib. Prolongada,Jarabe,C,Tercerista,
+PROD-0042,Dipirona Max,Comprimidos,C,Propio,Verano
+PROD-0043,Ibuprofeno Cb,Crema,C,Propio,Verano
+PROD-0044,Atorvastatina Plus,Comprimidos,B,Tercerista,
+PROD-0045,Atorvastatina Lib. Prolongada,Comprimidos,B,Propio,Verano
+PROD-0046,Atorvastatina Cb,Jarabe,A,Propio,Verano
+PROD-0047,Aspirina Lib. Prolongada,Inyectable,B,Propio,Invierno
+PROD-0048,Paracetamol Ped,Jarabe,A,Propio,Verano
+PROD-0049,Ibuprofeno Max,Crema,A,Tercerista,Verano
+PROD-0050,Valsartan Forte,Comprimidos,C,Propio,
