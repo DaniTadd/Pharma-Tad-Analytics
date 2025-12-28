@@ -28,6 +28,8 @@ El sistema exporta un set de archivos CSV normalizados (`data/raw/`) listos para
 
 * **`fact_calidad.csv`**: Historial de recepciones (Lotes de inspección), gestión de muestras y tasas de rechazo variables según el perfil del proveedor.
 
+### 🔷 Tabla Puente
+* **`bridge_BOM.csv`**: Define la **Receta Maestra (Bill of Materials)** con cantidades teóricas. Permite cruzar qué materias primas impactan en qué productos terminados, fundamental para el análisis de riesgo cruzado.
 
 ## ⚙️ Lógica de Negocio y Supuestos
 
