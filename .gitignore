@@ -1,8 +1,28 @@
-# Ignorar entorno virtual
-venv/
-.venv/
-env/
+# ========================================
+# 🐍 Python (Archivos compilados / Basura)
+# ========================================
+__pychache__/
+*.py[cod]
+*$py.class
 
-#Ignorar archivos compilados de Python (basura)
-__pycache__/
-*.pyc
+# ========================================
+# 📦 Entornos Virtuales
+# ========================================
+venv/
+env/
+.venv
+
+# ========================================
+# ⚙️ Python (Archivos compilados / Basura)
+# ========================================
+.vscode/
+.idea/
+.DS_STORE
+Thumbs.db
+
+# ========================================
+# 📄 Python (Archivos compilados / Basura)
+# ========================================
+*.log
+*.tmp
+
